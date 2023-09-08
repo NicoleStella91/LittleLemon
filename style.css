@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    background: linear-gradient(rgba(255, 255, 255, 0.801), rgba(255,255,255,.5)), url(https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    margin: auto;
+}
+
+header > img {
+    width: 300px;
+    display: block;
+    margin: 17px auto;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    list-style: none;
+    background-color: #f3ca14b4;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+a:link {
+    color: #4c5c54;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4c5c54;
+    text-decoration: none;
+}
+
+a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.promo {
+    background: linear-gradient(rgba(255, 255, 255, 0.801), rgba(255,255,255,.5)), url(https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(233, 222, 222);
+}
+
+.promo h2 {
+    font-size: 2em;
+}
+
+.promo p {
+    font-size: 1.5em;
+}
+
+.button {
+    width: 100px;
+    background-color: #f3cb14;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 2px black;
+}
+
+.button:hover {
+    width: 150px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.img-text {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.main-img {
+    max-width: 50%;
+    border-radius: 25px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+}
+
+.secondary-img {
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+}
+
+footer div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    max-height: 80px;
+    width: auto;
+    margin-right: 10px;
+}
